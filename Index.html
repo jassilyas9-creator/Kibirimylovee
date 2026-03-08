@@ -1,0 +1,164 @@
+# Kibirimylovee
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Anniversary My Crazy Love! 😍💥❤️</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Comic Sans MS', 'Segoe UI', cursive, sans-serif;
+      background: linear-gradient(45deg, #ff6b6b, #ff8e53, #ffafbd, #ffc3a0, #ff9a9e);
+      background-size: 400% 400%;
+      animation: rainbowBG 18s ease infinite;
+      color: #fff;
+      text-align: center;
+      overflow-x: hidden;
+      min-height: 100vh;
+      position: relative;
+    }
+
+    @keyframes rainbowBG {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    h1 {
+      font-size: 5em;
+      margin: 30px 10px;
+      color: #ff3366;
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff69b4, 0 0 40px #ff1493;
+      animation: bounce 1.8s infinite, glow 2.5s infinite alternate;
+    }
+
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0) rotate(0deg); }
+      50% { transform: translateY(-25px) rotate(3deg); }
+    }
+
+    @keyframes glow {
+      from { text-shadow: 0 0 10px #fff, 0 0 20px #ff69b4; }
+      to   { text-shadow: 0 0 30px #fff, 0 0 60px #ff1493, 0 0 80px #ff69b4; }
+    }
+
+    .heart {
+      font-size: 4em;
+      display: inline-block;
+      animation: pulse 1.4s infinite, wiggle 3s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.3); }
+    }
+
+    @keyframes wiggle {
+      0%, 100% { transform: rotate(-3deg); }
+      50% { transform: rotate(3deg); }
+    }
+
+    p {
+      font-size: 1.9em;
+      margin: 25px auto;
+      max-width: 90%;
+      line-height: 1.6;
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.4);
+    }
+
+    .floaty {
+      position: absolute;
+      font-size: 2.5em;
+      pointer-events: none;
+      animation: floatUp 12s linear infinite;
+      opacity: 0.8;
+    }
+
+    @keyframes floatUp {
+      0% { transform: translateY(120vh) rotate(0deg); opacity: 0; }
+      10% { opacity: 1; }
+      90% { opacity: 1; }
+      100% { transform: translateY(-20vh) rotate(360deg); opacity: 0; }
+    }
+
+    /* Falling hearts confetti */
+    .hearts-container {
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      pointer-events: none;
+      z-index: 10;
+      overflow: hidden;
+    }
+
+    .heart-fall {
+      position: absolute;
+      font-size: 2.2em;
+      top: -10%;
+      animation: fall linear infinite, sway 4s ease-in-out infinite;
+    }
+
+    @keyframes fall {
+      to { transform: translateY(110vh); }
+    }
+
+    @keyframes sway {
+      0%,100% { transform: translateX(0); }
+      50% { transform: translateX(60px); }
+    }
+
+    footer {
+      margin: 60px 0 20px;
+      font-size: 1.5em;
+      opacity: 0.9;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Falling hearts rain -->
+  <div class="hearts-container">
+    <div class="heart-fall" style="left:5%; animation-duration:9s; animation-delay:0s;">❤️</div>
+    <div class="heart-fall" style="left:15%; animation-duration:12s; animation-delay:1.2s;">💕</div>
+    <div class="heart-fall" style="left:25%; animation-duration:10s; animation-delay:3s;">😚</div>
+    <div class="heart-fall" style="left:35%; animation-duration:14s; animation-delay:0.8s;">💖</div>
+    <div class="heart-fall" style="left:45%; animation-duration:11s; animation-delay:2.5s;">🌹</div>
+    <div class="heart-fall" style="left:55%; animation-duration:13s; animation-delay:4s;">🥰</div>
+    <div class="heart-fall" style="left:65%; animation-duration:8s; animation-delay:1.8s;">✨</div>
+    <div class="heart-fall" style="left:75%; animation-duration:15s; animation-delay:0.5s;">😘</div>
+    <div class="heart-fall" style="left:85%; animation-duration:10s; animation-delay:2s;">💞</div>
+    <div class="heart-fall" style="left:95%; animation-duration:12s; animation-delay:3.5s;">🎀</div>
+  </div>
+
+  <!-- Floating random love emojis -->
+  <div class="floaty" style="left:10%; animation-duration:18s; animation-delay:0s;">💖</div>
+  <div class="floaty" style="left:30%; animation-duration:22s; animation-delay:4s;">😍</div>
+  <div class="floaty" style="left:50%; animation-duration:15s; animation-delay:8s;">🥂</div>
+  <div class="floaty" style="left:70%; animation-duration:20s; animation-delay:2s;">🌟</div>
+  <div class="floaty" style="left:90%; animation-duration:25s; animation-delay:6s;">😚</div>
+
+  <h1>Happy Anniversaryyy, My Everything! 🎉💥❤️</h1>
+
+  <p class="heart">I LOOOOOVE YOUUU SO MUCHHH 😍💖</p>
+
+  <p>You're my daily dose of chaos & cuddles 🤪🤗<br>
+  My favorite person to annoy forever 😏<br>
+  The one who makes my heart go BOOM every time 💓</p>
+
+  <p>Our silly moments? Iconic.<br>
+  Kitchen dances at midnight? Mandatory 🕺💃<br>
+  Blanket wars you always win? Still mad 😤❤️<br>
+  Your goofy smile? My weakness forever 😘</p>
+
+  <p>More adventures, more laughs, more late-night snacks,<br>
+  more YOU & ME against the world! 🚀💞</p>
+
+  <h2 style="font-size:3.5em; animation: pulse 2s infinite;">Forever isn't enough... but let's make it EPIC! 🥳</h2>
+
+  <p class="heart" style="font-size:6em;">YOU + ME = BEST TEAM EVER 🍕❤️</p>
+
+  <footer>Made with a million kisses just for YOU! 😚💕<br>Happy Anniversary, my wild heart! 🌹✨</footer>
+
+</body>
+</html>
